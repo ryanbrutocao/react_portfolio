@@ -25,8 +25,8 @@ const ProjectCard = (props) => {
           </CardHeader>
           <CardBody>
 
-            <img src={`${process.env.PUBLIC_URL}/images/${props.image}`} alt={props.projectName} />
-            <hr />
+            {/* <img src={`${process.env.PUBLIC_URL}/images/${props.image}`} alt={props.projectName} /> */}
+
             <p>{props.shortDescription}</p>
             {/* <h5>weblink: {props.weblink}</h5>
             <h5>gitlink: {props.gitlink}</h5> */}

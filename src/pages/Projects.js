@@ -43,29 +43,29 @@ const Projects = () => {
       <hr />
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
         <Row>
-          {projectName.map(project => (
-            <ProjectCard
-              key={project.projectName}
-              projectName={project.projectName}
-              eventKey={project.projectName}
-              setSelectedProject={() => setSelectedProject(project)}
-              isActive={project === selectedProject}
-              id={project.projectName}
-              image={project.image}
-              shortDescription={project.shortDescription}
-              description={project.description}
-              gitlink={project.gitlink}
-              weblink={project.weblink}
-            >
-              console.log("project",project);
-
-
-          </ProjectCard>
-          ))
-          }
-        </Row>
-        <Row>
-          <Col>
+                <Col sm={3}>
+                  {projectName.map(project => (
+                    <ProjectCard
+                    key={project.projectName}
+                    projectName={project.projectName}
+                      eventKey={project.projectName}
+                      setSelectedProject={() => setSelectedProject(project)}
+                      isActive={project === selectedProject}
+                      id={project.projectName}
+                      image={project.image}
+                      shortDescription={project.shortDescription}
+                      description={project.description}
+                      gitlink={project.gitlink}
+                      weblink={project.weblink}
+                      >
+                      console.log("project",project);
+        
+        
+                  </ProjectCard>
+                  ))
+                }
+                </Col >
+          <Col sm={9}>
 
             {selectedProject ? (<ProjectDetails
               projectName={selectedProject.projectName}
@@ -74,11 +74,11 @@ const Projects = () => {
               weblink={selectedProject.weblink}
               description={selectedProject.description}
               contributors={selectedProject.contributors}
-            />) : (<h3>Click on project to see details.</h3>
+              />) : (<h3>Click on project to see details.</h3>
               )}
 
           </Col>
-        </Row>
+                </Row>
       </Tab.Container>
     </div >
   );

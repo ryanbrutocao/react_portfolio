@@ -6,8 +6,8 @@
       "image": "vinotoryScreen.PNG",
       "shortDescription": "Manage customers, sales, and inventory",
       "description": "Vinotory is a full stack web application built with a jQuery frontend and utilizing MySQL for the database. Deployed using Heroku.",
-      "gitlink": "www.github.com",
-      "weblink": "www.vinotory.com",
+      "gitlink": "https://www.github.com",
+      "weblink": "https://www.vinotory.com",
       "selected": false,
       "contributors": "Ryan Brutocao & Brian Carver"
     },
@@ -17,8 +17,8 @@
       "image": "hikingApp.PNG",
       "shortDescription": "Find a local hike",
       "description": "Built for my first Bootcamp project, Take a Hike! was designed to show the user which hikes are near their desired starting point. User can search for hikes anywhere in the world and get driving directions to the trailhead. User also has ability to make packing lists",
-      "gitlink": "www.hiking.com",
-      "weblink": "www.newhiking.com",
+      "gitlink": "https://www.hiking.com",
+      "weblink": "https://www.newhiking.com",
       "selected": false,
       "contributors": "Ryan Brutocao"
     },
@@ -28,8 +28,8 @@
       "image": "myface.jpg",
       "shortDescription": "Log in and schedule your clients",
       "description": "A full stack React +Redux application which allows for unique logins, scheduling availability and appointments",
-      "gitlink": "www.schedule.com",
-      "weblink": "www.schedulenow.com",
+      "gitlink": "https://www.schedule.com",
+      "weblink": "https://www.schedulenow.com",
       "selected": false,
       "contributors": "Ryan Brutocao, Brian Carver & Colin Davis"
     },
@@ -39,8 +39,8 @@
       "image": "myface.jpg",
       "shortDescription": "Answer questions to match with a new friend",
       "description": "Answer a series of questions and be matched with others who have similar answers",
-      "gitlink": "www.schedule.com",
-      "weblink": "www.schedulenow.com",
+      "gitlink": "https://github.com/ryanbrutocao/friendFinder",
+      "weblink": "https://www.schedulenow.com",
       "selected": false,
       "contributors": "Ryan Brutocao"
     },
@@ -50,8 +50,8 @@
       "image": "myface.jpg",
       "shortDescription": "Scrape and save news articles from the New York Times website",
       "description": "New York Times news scraper which grabs headlines and article descriptions. Built with handlebars, jQuery, and MongoDB",
-      "gitlink": "www.schedule.com",
-      "weblink": "www.schedulenow.com",
+      "gitlink": "https://www.schedule.com",
+      "weblink": "https://www.schedulenow.com",
       "selected": false,
       "contributors": "Ryan Brutocao"
     },
@@ -61,8 +61,8 @@
       "image": "myface.jpg",
       "shortDescription": "Play Rock-Paper-Scissors against opponent with live chat",
       "description": "A simple game of Rock-Paper-Scissors which also allows the opponents to chat in real time. Built using jQuery and Firebase.",
-      "gitlink": "www.schedule.com",
-      "weblink": "www.schedulenow.com",
+      "gitlink": "https://github.com/ryanbrutocao/RPS-Multiplayer",
+      "weblink": "https://ryanbrutocao.github.io/RPS-Multiplayer/",
       "selected": false,
       "contributors": "Ryan Brutocao"
     }

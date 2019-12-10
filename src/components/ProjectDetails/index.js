@@ -3,7 +3,6 @@ import { Card } from 'reactstrap'
 import styled from 'styled-components'
 
 
-
 const ProjectWrapper = styled.article`
 .card {
   border: ${props => props.isActive ? "2px solid teal" : "1px solid blue"};
@@ -22,14 +21,17 @@ const ProjectDetails = (props) => {
     <ProjectWrapper isActive={props.isActive}>
 
       <Card>
-
-        <p><strong>ProjectName:</strong> {props.projectName}</p>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.msn.com">msn link</a>
+        <p><strong> {props.projectName}</strong></p>
         <img src={`${process.env.PUBLIC_URL}/images/${props.image}`} alt={props.projectName} />
 
-        <p>description: {props.description}</p>
-        <a href={props.weblink} >weblink</a>
+        <p>{props.description}</p>
+        <a target="_blank" rel="noopener noreferrer" href={props.weblink}>web-link</a>
+
+        {/* <a href={props.weblink} >weblink</a> */}
         <a href={props.gitlink}>gitlink</a>
         Contributors: {props.contributors}
+
       </Card>
     </ProjectWrapper>
   );
